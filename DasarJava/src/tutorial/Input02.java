@@ -2,9 +2,9 @@ package tutorial;
 
 import java.util.Scanner;
 
-public class UserInput02 {
+public class Input02 {
+    
     public static void main(String[] args) {
-        
         Scanner input = new Scanner (System.in);
         System.out.print("Masukkan Nama Lengkap: ");
         String namaLengkap = input.nextLine();
